@@ -1,0 +1,37 @@
+Tasks to do:
+1: waxaan sameysaa function kaas oo markii sawirka qeybka hero section ku jira 
+ mouse-ka la korgeeyo badalaya sawirka oo sawir kale ku badalaya.
+2: waxaad sameysaa function kaas oo markii batoonka "contact us" ee qeybta hero section lagu dhufto kuso saaraya 
+form aad ku buuxin karto information kadibna aad submit dhihi karto.
+3: waxaad sameysaa function submit ku sameynaya formka qeybta contact us.
+4: waxaad sameysaa function kaas oo markii qofku click siiyo "Register Now" ee Interior Design u soo saaraya form
+uu ka dalbado in shaqadaas loo qabto. 
+5: waxaad sameysaa function kaas oo markii qofku click siiyo "Register Now" ee Exterior Design u soo saaraya form
+uu ka dalbado in shaqadaas loo qabto. 
+6: waxaad sameysaa function kaas oo markii qofku click siiyo "Register Now" ee Decorations  u soo saaraya form
+uu ka dalbado in shaqadaas loo qabto. 
+7: waxaad sameysaa function kaas oo markii qofku click siiyo "Register Now" ee Smart Home Integration u soo
+ saaraya form
+uu ka dalbado in shaqadaas loo qabto. 
+8: waxaad sameysaa function kaas oo markii qofku click siiyo "Register Now" ee Gardens u soo saaraya form
+uu ka dalbado in shaqadaas loo qabto. 
+9: waxaad sameysaa function kaas oo markii qofku click siiyo "Register Now" ee Painting u soo saaraya form
+uu ka dalbado in shaqadaas loo qabto. 
+10: waxaad sameysaa function kaas validation ku sameysnaya formka login.
+11: waxaad sameysaa function kaas oo markii qofku mouse-ka kor geeyo sawirka Interior Design u soo 
+saaraya sawir kale.
+12: waxaad sameysaa function kaas oo markii qofku mouse-ka kor geeyo sawirka Exterior Design u soo 
+saaraya sawir kale.
+13: waxaad sameysaa function kaas oo markii qofku mouse-ka kor geeyo sawirka Decorations  u soo 
+saaraya sawir kale.
+14: waxaad sameysaa function kaas oo markii qofku mouse-ka kor geeyo sawirka Smart Home Integration  u soo 
+saaraya sawir kale.
+15: waxaad sameysaa function kaas oo markii qofku mouse-ka kor geeyo sawirka Gardens  u soo 
+saaraya sawir kale.
+16: waxaad sameysaa function kaas oo markii qofku mouse-ka kor geeyo sawirka Painting u soo 
+saaraya sawir kale.
+17:waxaad sameysaa function kaas oo markii mouse-ka la kor geeyo logada qeybta about-ka badalaya qoraalka 
+dhanka midig ka jira logada kuna badalaya magacyadeena(Ibrahim,Ahmed,Abdulqadir,Hawa) qaab list ah.DONE
+18: waxaan sameysaa function kaas oo markii sawirka qeybka hero section ku jira 
+ mouse-ka la korgeeyo badalaya qoraalka ah "Home Renovations in Somalia"  oo  ku badalaya Qoraal ah "Welcome to 
+Open Hands or something like that".

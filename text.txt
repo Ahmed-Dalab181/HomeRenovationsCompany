@@ -1,0 +1,12 @@
+shades of teal = #008080(original),#b2d8d8,
+#66b2b2,#006666,#004c4c
+shades of slate blue= #6a5acd(original),#8674d6,
+#a08edf,#b9aae7,#d1c5ef,#e8e2f7.
+
+
+
+font-family: 'Cinzel Decorative', serif;
+
+
+
+Tasks:

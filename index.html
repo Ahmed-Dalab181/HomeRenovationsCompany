@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head > 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home renovations</title>
+    <!-- Icon file-->
+    <link rel="stylesheet" href="./icons/icon.ico">
+    <!-- css file -->
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+    <!-- fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght
+@0,100;0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&display=
+swap" 
+rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" 
+crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;
+500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap"
+ rel="stylesheet">
+ <!-- bootstrap link-->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+ rel="stylesheet" 
+ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+  crossorigin="anonymous">
+</head>
+<body>   
+
+    <div class="">
+        <!-- navbar-->
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="./img/logo.png" alt="" width="100px" height="60px">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active farta" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link farta" href="#contact">Contact Us</a>
+                      </li>
+                        <li class="nav-item">
+                            <a class="nav-link farta" href="#about">About Us</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link  farta" href="#services" >
+                                Services
+                            </a>
+                         
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link farta" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </div>
+        <!-- hero section-->
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./img/interior.jpg" id="hero-img" class="mx-lg-auto img-fluid hidden" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                <img src="./img/decoration.jpg" id="hero-imgTwo" class="mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 id="hero-title" title="Hero Section" class="display-5 fw-bold lh-1 mb-3">Home Renovations in Somalia</h1>
+                <h1 id="hero-title2" title="Hero Section" class="display-5 fw-bold lh-1 mb-3">Dear customers, Welcome to open hands.</h1>
+                <p class="lead" id="hero-para">At Home Renovations, we believe that your home is a canvas waiting to be adorned with creativity and craftsmanship. Step into a world where dreams meet reality, and every corner tells a unique story of renovation and design..</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button onclick="ClickContactUsBtn()"  type="button" class="contact-us">Contact Us</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- alert message -->
+          <div class="modal modal-alert bg-body-secondary py-5" tabindex="-1" role="dialog" id="modalChoice">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content rounded-4 shadow">
+                <div class="modal-body p-4 text-center">
+                  <h5 class="mb-0">Thank you</h5>
+                  <p class="mb-0">We will contact you as soon ass possible.</p>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+          <!-- modal -->
+
+          <div class="modal modal-sheet  bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modal">
+            <div class="modal-dialog " role="document">
+              <div class="modal-content rounded-4 shadow">
+                <div class="modal-header p-5 pb-4 border-bottom-0">
+                  <h1 class="fw-bold mb-0 fs-2">Emergency</h1>
+                  <button type="button" onclick="closeModal()" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+          
+                <div class="modal-body p-5 pt-0">
+                  <form >
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control rounded-3" id="contactEmail"  placeholder="name@example.com">
+                      <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control rounded-3" id="contactAddress"  placeholder="address">
+                      <label for="floatingPassword">Address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control rounded-3" id="contactTelephone"  placeholder="telephone">
+                      <label for="floatingPassword">Telephone</label>
+                    </div>
+                    <p id="contactError"></p>
+                    <button id="contactSubmit" class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="button">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Contact Us section-->
+          <div id="contact" class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <h2 class="text-center fs-1">Contact Us</h2>
+            <div class="row align-items-center g-lg-5 py-5">
+              <div class="col-lg-7 text-center text-lg-start">
+                <h3 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Get in Touch:</h3>
+              
+                <p class="col-lg-10 fs-4">
+                  Have a question, a project in mind, or simply want to say hello? We'd love to hear from you! Contacting Home Renovations Company is as easy as reaching out to an old friend.                </p>
+                <a href=""><img class="img-contact" height="40" width="40" src="./icons/gmail.png" alt="Gmail"> </a>
+                <a href=""><img class="img-contact" height="40" width="40" src="./icons/whatsapp.png" alt="Whatsapp"> </a>
+                <a href=""><img class="img-contact" height="40" width="40" src="./icons/telephone.png" alt="telephone"> </a>
+              </div>
+              <div class="col-md-10 mx-auto col-lg-5">
+                <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="emails" placeholder="name@example.com" required>
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="tele" placeholder="Telephone">
+                    <label for="">TelPhone</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="addres" placeholder="Address">
+                    <label for="">Address</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <textarea type="text" class="form-control" id="comment" placeholder="Comment"></textarea>
+                    <label for="">Comment</label>
+                  </div>
+                <p id="contactErrors"></p>
+                  <button id="contactPage" class="w-100 btn btn-lg btn-primary" type="button">Submit</button>
+                  <hr class="my-4">
+                </form>
+              </div>
+            </div>
+          </div>
+            
+          <!-- About Us section-->
+          
+          <div id="about" class="container">
+            <h2 class="text-center">About Us</h2>
+            <div class="d-flex flex-wrap ml-2 m-5">
+              <img id="aboutLogo" width="200" height="200" src="./img/logo.png" alt=" about us">
+              <p id="aboutPara" class="col-md-8 fs-6 about">
+                Welcome to Home Renovations, where dreams meet craftsmanship and spaces transform into reflections of your unique style and personality.
+  
+                At Home Renovations, we don't just renovate homes; we curate living experiences. With a passion for design excellence and a commitment to quality craftsmanship, we bring your vision to life, one nail at a time.
+                
+                Our journey began with a simple belief – that every home should tell a story. Whether you're envisioning a cozy retreat, a modern masterpiece, or a timeless classic, we're here to turn your dreams into reality. Our team of skilled artisans, designers, and project managers collaborate seamlessly to deliver renovations 
+                that go beyond aesthetics – they enhance the way you live.            </p>
+                <ul id="aboutList" class="list-unstyled ml-2 fs-4">
+                  <h5>Developers:</h5>
+                  <li>Ahmed Abdi</li>
+                  <li>Ibrahim Diriye</li>
+                  <li>AbdulQadir Abdirahman</li>
+                  <li>Hawa Omar</li>
+                </ul>
+              
+            </div>
+           
+          </div>
+
+          <!-- Services section-->
+          <div id="services" class="container">
+                <h2 class="text-center">Services</h2>
+                <div class="album py-5 bg-body-tertiary">
+                  <div class="container">
+              
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img id="ineriorFirst" class="" src="./img/interior-design.jpg" alt="enterior">
+                          <img id="ineriorSecond" class="d-none" src="./img/interiorSecond.jpg" alt="enterior">
+                          <div class="card-body">
+                            <h4 id="headerInterior">Interior Design</h4>
+                            <p class="card-text">
+                              Step into a world where spaces become stories, and every room is a canvas waiting to be painted with personality and style. Welcome to Home Renovations, where we redefine living through the art of interior design.                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <!-- <div class="btn-group">
+                                <button id="register" type="button" class="btn btn-sm btn-outline-secondary">Register Now</button>
+                              </div>
+                              <small class="text-body-secondary">$ 1000</small> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img src="./img/exterior-design.jpeg" alt="enterior">
+                          <div class="card-body">
+                            <h4>Exterior Design</h4>
+                            <p class="card-text parag-services">
+                              Picture a home that captivates from the first glance, where curb appeal is an art form, and outdoor spaces are an invitation to moments of relaxation and connection                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <!-- <div class="btn-group">
+                                <button id="register" type="button" class="btn btn-sm btn-outline-secondary">Register Now</button>
+                              </div>
+                              <small class="text-body-secondary">$ 2000</small> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img src="./img/decoration.jpg" alt="enterior">
+                          <div class="card-body">
+                            <h4>Decorations</h4>
+                            <p class="card-text">
+                              In a world that often moves too fast, we embrace the timeless allure of decorations that captivate and linger in the memory                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <!-- <div class="btn-group">
+                                <button id="register" type="button" class="btn btn-sm btn-outline-secondary">Register Now</button>
+                              </div>
+                              <small class="text-body-secondary">$ 900</small> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img src="./img/samrt.avif" alt="enterior">
+                          <div class="card-body">
+                            <h4>Smart Home Integration</h4>
+                            <p class="card-text">
+                              At Home Renovations Company, we believe that a truly intelligent home is one that seamlessly blends technology with comfort, security, and efficiency. Our mission is to turn your living spaces into smart sanctuaries, where every aspect of your home is at your command, literally at your fingertips.                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <!-- <div class="btn-group">
+                                <button id="register" type="button" class="btn btn-sm btn-outline-secondary">Register Now</button>
+                              </div>
+                              <small class="text-body-secondary">$ 8000</small> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img src="./img/garden-flowers-home-garden-shed.jpg" alt="enterior">
+                          <div class="card-body">
+                            <h4>Gardens</h4>
+                            <p class="card-text">
+                              Immerse yourself in the art of garden design, where every leaf, bloom, and stone is carefully curated to create a harmonious sanctuary. Our skilled team of landscapers at Home Renovations Company is dedicated to transforming your garden into a retreat that reflects your style and complements your living spaces.
+                              </p>
+                              <div class="d-flex justify-content-between align-items-center">
+                              <!-- <div class="btn-group">
+                                <button id="register" type="button" class="btn btn-sm btn-outline-secondary">Register Now</button>
+                              </div>
+                              <small class="text-body-secondary">$ 3000</small> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="col">
+                        <div class="card shadow-sm">
+                          <img src="./img/painting.jpg" alt="enterior">
+                          <div class="card-body">
+                            <h4>Painting</h4>
+                            <p class="card-text">
+                              At Home Renovations Company, we believe in quality that stands the test of time. Our painters use top-notch materials, industry-leading techniques, and a commitment to excellence to ensure that your investment in painting services yields enduring beauty.
+                              </p>
+                              <div class="d-flex justify-content-between align-items-center">
+                              <!-- <div class="btn-group">
+                                <button id="register" type="button" class="btn btn-sm btn-outline-secondary">Register Now</button>
+                              </div>
+                              <small class="text-body-secondary">$ 800</small> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+              
+                    
+                    </div>
+                  </div>
+                </div>
+               
+                
+                
+                <!-- Exterior-->
+                <!-- Decor-->
+          </div>
+          
+          <!-- footer section-->
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                  <img src="img/logo.png" class="bi" width="30" height="24" href="#bootstrap" />
+                </a>
+                <span class="text-muted">© 2024 Home Renovations, Inc</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#twitter"><img class="bi" src="icons/twitter.png" width="24" height="24" href="#twitter" /></a></li>
+                <li class="ms-3"><a class="text-muted" href="#gmail"><img class="bi" src="icons/gmail.png" width="24" height="24" href="#gmail" /></a></li>
+                <li class="ms-3"><a class="text-muted" href="#facebook"><img class="bi" src="icons/facebook.png" width="24" height="24" href="#facebook" /></a></li>
+                <li class="ms-3"><a class="text-muted" href="#whatsapp"><img class="bi" src="icons/whatsapp.png" width="24" height="24" href="#whatsapp" /></a></li>
+                <li class="ms-3"><a class="text-muted" href="#telephone"><img class="bi" src="icons/telephone.png" width="24" height="24" href="#tel" /></a></li>
+              </ul>
+            </footer>
+          </div>
+    </div>
+    
+
+
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
+</body>
+</html>

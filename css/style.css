@@ -1,0 +1,71 @@
+
+.farta {
+    font-family: 'Luxurious Roman', serif;
+}
+.btn-outline-secondary:hover {
+    background: #b9aae7;
+    color: #333;
+}
+
+nav li a:hover {
+   background-color: #66b2b2;
+   border-radius: 15px;
+   color: #fff;
+}
+.about {
+    margin-left: 20px;
+}
+.img-contact {
+    margin-left: 10px;
+    border-radius: 10px;
+}
+#hero-title {
+    font-family: 'Cinzel Decorative',Poppins, sans-serif;
+}
+#aboutList {
+    display: none;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+#her-img {
+    display: block;
+}
+#hero-imgTwo{
+    display: none;
+}
+#hero-title2 {
+    display: none;
+}
+/* .parag-services {
+    color: blue;
+} */
+/* #modal {
+    display: none;
+} */
+.contact-us {
+    background: #006666;
+    color: #fff;
+    border-radius: 15px;
+    padding: 8px;
+    width: 100px;
+    border: none;
+}
+.contact-us:hover {
+    background-color: #b9aae7;
+}
+#modal {
+    display: none;
+}
+#contactError {
+    color: red;
+}
+#modalChoice {
+    display: none;
+}
+
+.alert-msg {
+    margin-left: 20px;
+    margin-right: 20px;
+    background: blue;
+    color: #fff;
+}
